@@ -85,7 +85,7 @@ int main(){
              jugador1++;
              }if(tablero[i][j]=='#'){
              jugador2++;
-             }if(tablero[i][j]=='-'){
+             }if(tablero[i][j]!='-'){
              espacios--;
              }
           }
@@ -156,7 +156,7 @@ int main(){
 	     jugador1++;
 	     } if(tablero[i][j]=='#'){
 	     jugador2++;
-	     }if(tablero[i][j]=='-'){
+	     }if(tablero[i][j]!='-'){
 	     espacios--;
 	     }
           }
